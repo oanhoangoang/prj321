@@ -43,6 +43,8 @@ public class DoLogin extends HttpServlet {
            // This is a comment
            // test branch
            // this is master branch
+           // test merge branch from developer to master
+
             if() {
                 Users u = new Users(username, role);
                 session.setAttribute("LoginUser", u);
