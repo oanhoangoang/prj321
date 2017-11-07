@@ -42,6 +42,7 @@ public class DoLogin extends HttpServlet {
            // UserModel um = new UserModel();
            // This is a comment
            // test branch
+           // this is master branch
             if() {
                 Users u = new Users(username, role);
                 session.setAttribute("LoginUser", u);
