@@ -40,6 +40,7 @@ public class DoLogin extends HttpServlet {
             if(admin != null) role = "Admin";
             HttpSession session = request.getSession();
            // UserModel um = new UserModel();
+           // This is a comment
             if() {
                 Users u = new Users(username, role);
                 session.setAttribute("LoginUser", u);
