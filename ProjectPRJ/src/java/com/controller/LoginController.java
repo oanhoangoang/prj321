@@ -17,7 +17,7 @@ import javax.servlet.http.HttpSession;
  *
  * @author Nuoi
  */
-public class DoLogin extends HttpServlet {
+public class LoginController extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -45,17 +45,17 @@ public class DoLogin extends HttpServlet {
            // this is master branch
            // test merge branch from developer to master
 
-            if() {
-                Users u = new Users(username, role);
-                session.setAttribute("LoginUser", u);
-                String contextPath = request.getContextPath();//FilterSample
-                String servletPath = request.getServletPath();//FilterSample/DoLogin
-                response.sendRedirect(contextPath+"/Home.jsp");
-            } else {
-                session.setAttribute("LoginError", "Username or password is invalid");
-                String contextPath = request.getContextPath();//FilterSample              
-                response.sendRedirect(contextPath+"/Login.jsp");
-            }
+//            if() {
+//                Users u = new Users(username, role);
+//                session.setAttribute("LoginUser", u);
+//                String contextPath = request.getContextPath();//FilterSample
+//                String servletPath = request.getServletPath();//FilterSample/DoLogin
+//                response.sendRedirect(contextPath+"/Home.jsp");
+//            } else {
+//                session.setAttribute("LoginError", "Username or password is invalid");
+//                String contextPath = request.getContextPath();//FilterSample              
+//                response.sendRedirect(contextPath+"/Login.jsp");
+//            }
         }
     }
 
